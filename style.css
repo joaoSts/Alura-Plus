@@ -113,9 +113,10 @@ border: 2px solid var(--branco-principal);
     height: 100vh; /*vh = tela*/
     align-items: center;
     width: 150vh;
-    margin:auto;
+    margin: auto;
     
 }
+
 .lista{
     display: flex;
     text-align: center;
@@ -129,7 +130,7 @@ border: 2px solid var(--branco-principal);
     align-items: center;
 }
 .rodape{
-  
+  margin: auto;
     align-items: center;
     width: 150vh;
 }
@@ -137,6 +138,7 @@ border: 2px solid var(--branco-principal);
     display: flex;
     justify-content: space-between;
     list-style: none;
+    
 }
 .texto__footer{
     text-align: center;
@@ -155,4 +157,60 @@ border: 2px solid var(--branco-principal);
 .container__btn:hover{
   background-color:#3c94ff;
   color: #00030C;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        display: block;
+        background-image: none;
+    }
+    .container__img{
+        width: 50vw;
+    }
+    .container__caixa{
+        margin: 2em 2em;
+    }
+    .secundario{
+        margin: 0;
+        text-align: center;
+    }
+    .container__terceiro{
+        display: block;
+        margin-top: 48vw;
+        
+        
+    }
+    .img-terceira{
+        width: 60vw;
+    }
+    .quartenario{
+        margin: auto;
+        display: block;
+        width:56vh;
+    }
+    .secudaria__img{
+        width: 56vh;
+    }
+    .quinto div{
+        margin: auto;
+        display: block;
+        width: 56vh;
+    }
+    .lista_link_img{
+        width: 25vh;
+    }
+    .rodape{
+        width: 56vh;
+        margin-top: 50vh;
+        margin: auto;
+        padding-top: 30vh;
+        
+    }
+    .rodape ul{
+        display: block;
+       
+    }
+    .texto__footer{
+        width: 56vh;
+    }
 }
