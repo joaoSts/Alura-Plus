@@ -113,6 +113,7 @@ border: 2px solid var(--branco-principal);
     height: 100vh; /*vh = tela*/
     align-items: center;
     width: 150vh;
+    margin:auto;
     
 }
 .lista{
